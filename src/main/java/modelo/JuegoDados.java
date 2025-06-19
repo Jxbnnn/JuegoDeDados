@@ -19,7 +19,7 @@ public class JuegoDados {
     }
 
     public boolean haGanado() {
-        return getResultado()==7;
+        return getResultado() == 7;
     }
 
     public Dado getDado1() {
