@@ -14,6 +14,9 @@ public class Dado {
     public int getCara() {
         return this.cara;
     }
-    @Override
 
+    @Override
+    public String toString() {
+        return "Dado muestra: " + cara
+    }
 }
