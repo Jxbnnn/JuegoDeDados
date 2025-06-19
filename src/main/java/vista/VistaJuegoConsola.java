@@ -10,7 +10,9 @@ public class VistaJuegoConsola {
     }
 
     public int mostrarMenu() {
-        System.out.println("\nMENU");
+        System.out.println("-----------------------");
+        System.out.println("        \nMENU         ");
+        System.out.println("-----------------------");
         System.out.println("1. Jugar");
         System.out.println("2. Salir");
         System.out.print("Opcion: ");
