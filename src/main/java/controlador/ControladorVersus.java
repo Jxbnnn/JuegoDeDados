@@ -25,13 +25,13 @@ public class ControladorVersus {
         boolean salir = false;
 
         while (!salir) {
-            while (!juego.haTerminado()) {
+            while (!juego.juegoTerminado()) {
                 vista.mostrarSeparador();
                 juego.jugarRonda();
                 vista.mostrarMarcador(juego.getJugador1(), juego.getJugador2());
             }
 
-            vista.mostrarGanador(juego.obtenerGanador());
+            vista.mostrarGanador(juego.getGanador());
 
             if (vista.confirmarSalida()) {
                 salir = true;
