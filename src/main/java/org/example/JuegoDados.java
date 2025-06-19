@@ -6,7 +6,7 @@ public class JuegoDados {
 
     public JuegoDados() {
         dado1 = new Dado();
-        dado2 = new Dado ();
+        dado2 = new Dado();
     }
 
     public void jugar() {
@@ -14,3 +14,19 @@ public class JuegoDados {
         dado2.lanzar();
     }
 
+    public int getResultado() {
+        return dado1.getCara() + dado2.getCara();
+    }
+
+    public boolean haGanado() {
+        return getResultado() == 7;
+    }
+
+    public Dado getDado1() {
+        return dado1;
+    }
+
+    public Dado getDado2() {
+        return dado2;
+    }
+}
