@@ -39,8 +39,8 @@ public class VistaVersusConsola {
 
     public void mostrarMarcador(Jugador j1, Jugador j2) {
         System.out.println("Marcador actual:");
-        System.out.println(j1.getNombre() + ": " + j1.getPuntaje() + " puntos");
-        System.out.println(j2.getNombre() + ": " + j2.getPuntaje() + " puntos");
+        System.out.println(j1.getNombre() + ": " + j1.getPuntos() + " puntos");
+        System.out.println(j2.getNombre() + ": " + j2.getPuntos() + " puntos");
     }
 
     public void mostrarGanador(Jugador ganador) {
