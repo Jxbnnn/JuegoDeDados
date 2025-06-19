@@ -11,7 +11,6 @@ public class ControladorVersus {
     public ControladorVersus() {
         vista = new VistaVersusConsola();
 
-        // Solicitar datos de los jugadores y rondas
         String nombre1 = vista.pedirNombreJugador(1);
         String nombre2 = vista.pedirNombreJugador(2);
         int rondas = vista.pedirCantidadRondas();
