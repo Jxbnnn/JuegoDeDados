@@ -18,7 +18,7 @@ public class ControladorVersus {
         Jugador j1 = new Jugador(nombre1);
         Jugador j2 = new Jugador(nombre2);
 
-        this.juego = new JuegoVersus(j1, j2, (rondas + 1) / 2); // Mejor de N
+        this.juego = new JuegoVersus(j1, j2, (rondas + 1) / 2);
     }
 
     public void iniciar() {
