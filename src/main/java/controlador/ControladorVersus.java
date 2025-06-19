@@ -1,5 +1,5 @@
 package controlador;
 
-public class ControladorVersus {
-    //
-}
+import modelo.Jugador;
+import modelo.JuegoVersus;
+import vista.VistaVersusConsola;
