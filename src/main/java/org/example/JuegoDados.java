@@ -1,5 +1,7 @@
 package org.example;
 
 public class JuegoDados {
-    private
+    private Dado dado1;
+    private Dado dado2;
+
 }
