@@ -33,4 +33,17 @@ public class ControladorVersus {
 
             vista.mostrarGanador(juego.obtenerGanador());
 
-            if (vista.confirmarSalida())
+            if (vista.confirmarSalida()) {
+                salir = true;
+                vista.mostrarDespedida();
+            } else {
+                new ControladorVersus().iniciar();
+                return;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        new ControladorVersus().iniciar();
+    }
+}
