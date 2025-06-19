@@ -40,3 +40,8 @@ public class ControladorJuego {
 
         vista.cerrarScanner();
     }
+
+    public static void main(String[] args) {
+        new ControladorJuego().iniciar();
+    }
+}
