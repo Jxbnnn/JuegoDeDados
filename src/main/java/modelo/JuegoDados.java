@@ -13,4 +13,20 @@ public class JuegoDados {
         dado1.lanzar();
         dado2.lanzar();
     }
+
+    public int getResultado() {
+        return dado1.getCara() + dado2.getCara();
+    }
+
+    public boolean haGanado() {
+        return getResultado()==7;
+    }
+
+    public Dado getDado1() {
+        return dado1;
+    }
+
+    public Dado getDado2() {
+        return dado2;
+    }
 }
