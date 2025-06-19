@@ -23,3 +23,10 @@ public class ControladorVersus {
 
     public void iniciar() {
         boolean salir = false;
+
+        while (!salir) {
+            while (!juego.haTerminado()) {
+                vista.mostrarSeparador();
+                juego.jugarRonda();
+                vista.mostrarMarcador(juego.getJugador1(), juego.getJugador2());
+            }
