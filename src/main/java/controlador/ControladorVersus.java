@@ -30,3 +30,7 @@ public class ControladorVersus {
                 juego.jugarRonda();
                 vista.mostrarMarcador(juego.getJugador1(), juego.getJugador2());
             }
+
+            vista.mostrarGanador(juego.obtenerGanador());
+
+            if (vista.confirmarSalida())
