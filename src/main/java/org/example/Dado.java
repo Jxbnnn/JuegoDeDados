@@ -17,6 +17,6 @@ public class Dado {
 
     @Override
     public String toString() {
-        return "Dado muestra: " + cara
+        return "Dado muestra: " + cara;
     }
 }
